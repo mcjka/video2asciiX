@@ -21,17 +21,17 @@ else:
     install_package('opencv-python')
 
 setup(
-    name="video_to_ascii",
-    version="1.3.0",
+    name="video2asciiX",
+    version="1.4.0",
     author="Joel Ibaceta",
-    author_email="mail@joelibaceta.com",
+    author_email="donotreply@gmail.com",
     license='MIT',
     description="It is a simple python package to play videos in the terminal",
     long_description="A simple tool to play a video using ascii characters instead of pixels",
     url="https://github.com/joelibaceta/video-to-ascii",
     project_urls={
-        'Source': 'https://github.com/joelibaceta/video-to-ascii',
-        'Tracker': 'https://github.com/joelibaceta/video-to-ascii/issues'
+        'Source': 'https://github.com/mcjka/video2asciiX',
+        'Tracker': 'https://github.com/mcjka/video2toasciiX/issues'
     },
     packages=find_packages(),
     include_package_data=True,
